@@ -6,7 +6,7 @@ add-apt-repository "deb [arch=amd64] https://mirrors.aliyun.com/kubernetes/apt/ 
 apt-get update
 
 # latest version, modifiable
-apt-cache madison kubelet kubectl kubeadm | grep 1.18.5-00
+apt-cache madison kubelet kubectl kubeadm | grep 1.18.3-00
 apt install -y kubelet=1.18.3-00 kubectl=1.18.3-00 kubeadm=1.18.3-00
 
 
