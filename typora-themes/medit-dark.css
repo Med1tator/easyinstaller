@@ -1579,3 +1579,7 @@ file-node-title-name-part {
 .CodeMirror {
     font-family: Consolas, "Microsoft YaHei";
 }
+
+.md-raw-inline {
+    font-family: Consolas, "Microsoft YaHei";
+}
